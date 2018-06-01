@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45171" started-at="2018-05-31T15:19:17Z" finished-at="2018-05-31T15:20:03Z">
+    <groups>
+    </groups>
+    <test name="Testing Home" duration-ms="16868" started-at="2018-05-31T15:19:17Z" finished-at="2018-05-31T15:19:34Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="IntializeDriver()[pri:0, instance:Academy.HomePage@353d0772]" name="IntializeDriver" is-config="true" duration-ms="6882" started-at="2018-05-31T15:19:17Z" finished-at="2018-05-31T15:19:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeDriver -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.HomePage@353d0772]" name="basePageNavigation" duration-ms="9752" started-at="2018-05-31T15:19:24Z" finished-at="2018-05-31T15:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Academy.HomePage@353d0772]" name="closeDriver" is-config="true" duration-ms="200" started-at="2018-05-31T15:19:34Z" finished-at="2018-05-31T15:19:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- Testing Home -->
+    <test name="Testing Title" duration-ms="13108" started-at="2018-05-31T15:19:34Z" finished-at="2018-05-31T15:19:47Z">
+      <class name="Academy.ValidateTitle">
+        <test-method status="PASS" signature="IntializeDriver()[pri:0, instance:Academy.ValidateTitle@2145b572]" name="IntializeDriver" is-config="true" duration-ms="12590" started-at="2018-05-31T15:19:34Z" finished-at="2018-05-31T15:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeDriver -->
+        <test-method status="PASS" signature="validateTitleBasePage()[pri:0, instance:Academy.ValidateTitle@2145b572]" name="validateTitleBasePage" duration-ms="10" started-at="2018-05-31T15:19:47Z" finished-at="2018-05-31T15:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleBasePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidateTitle@2145b572]" name="closeBrowser" is-config="true" duration-ms="503" started-at="2018-05-31T15:19:47Z" finished-at="2018-05-31T15:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Testing Title -->
+    <test name="Testing Navigationbar" duration-ms="15081" started-at="2018-05-31T15:19:48Z" finished-at="2018-05-31T15:20:03Z">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method status="PASS" signature="IntializeDriver()[pri:0, instance:Academy.ValidateNavigationBar@3d51f06e]" name="IntializeDriver" is-config="true" duration-ms="14608" started-at="2018-05-31T15:19:48Z" finished-at="2018-05-31T15:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntializeDriver -->
+        <test-method status="PASS" signature="validateNavBarBasePage()[pri:0, instance:Academy.ValidateNavigationBar@3d51f06e]" name="validateNavBarBasePage" duration-ms="152" started-at="2018-05-31T15:20:02Z" finished-at="2018-05-31T15:20:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNavBarBasePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Academy.ValidateNavigationBar@3d51f06e]" name="closeBrowser" is-config="true" duration-ms="317" started-at="2018-05-31T15:20:02Z" finished-at="2018-05-31T15:20:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Testing Navigationbar -->
+    <test name="Test app" duration-ms="1" started-at="2018-05-31T15:20:03Z" finished-at="2018-05-31T15:20:03Z">
+    </test> <!-- Test app -->
+  </suite> <!-- Suite -->
+</testng-results>
